@@ -4,8 +4,6 @@
 - 💞️ I’m very passionate about solvinag problems using tech managed solutions to enhance people and communities.
 - 📫 +19168939166.... maryorach123@yahoo.com
 
-- https://x.com/Maryorach
-- https://www.linkedin.com/in/mary-orach-moore-08b4451a9/
 
 <!---
 blackgirl7/blackgirl7 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
