@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @blackgirl7
-- 👀 I am an experienced software Engineer with a demonstrated history of working in the computer software industry for over seven years.
-- 🌱 I’m skilled in HTML and CSS, System intergration, Java Script, wordpress, React, Amazon Web Services (AWS), Node,Python, Typescript
+- 👀 Innovator 
+- 🌱 That senior software Engineer that is always bringing something new. 
 - 💞️ I’m very passionate about solvinag problems using tech managed solutions to enhance people and communities.
 - 📫 +19168939166.... maryorach123@yahoo.com
 
