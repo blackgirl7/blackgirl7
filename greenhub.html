@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenHub</title>
+    <link rel="stylesheet" href="greenhub.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <h1 class="logo">GreenHub</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section home">
+        <div class="container">
+            <h2>Welcome to GreenHub</h2>
+            <p>Your one-stop platform for sustainable projects and green innovations.</p>
+            <button onclick="scrollToSection('projects')">Explore Projects</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2>About GreenHub</h2>
+            <p>GreenHub is dedicated to connecting people with impactful environmental projects and innovations for a sustainable future.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2>Our Projects</h2>
+            <div class="project-grid">
+                <div class="project-card" onclick="showProjectDetails('project1')">
+                    <h3>Project 1</h3>
+                    <p>Renewable Energy Solutions</p>
+                </div>
+                <div class="project-card" onclick="showProjectDetails('project2')">
+                    <h3>Project 2</h3>
+                    <p>Community-based Recycling Programs</p>
+                </div>
+                <div class="project-card" onclick="showProjectDetails('project3')">
+                    <h3>Project 3</h3>
+                    <p>Water Conservation Initiatives</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Details Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="projectTitle">Project Title</h2>
+            <p id="projectDescription">Project Description</p>
+            <button onclick="engageWithProject()">Engage with Project</button>
+            <p id="engagementMessage" style="display: none; color: green;">Thank you for your engagement!</p>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="greenhub.js"></script>
+</body>
+</html>
