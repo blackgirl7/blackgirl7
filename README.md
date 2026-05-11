@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @blackgirl7
+- 👋 Hi, 
 - 👀 Innovator 
 - 🌱 That senior software Engineer that is always bringing something new. 
 - 💞️ I’m very passionate about solvinag problems using tech managed solutions to enhance people and communities.
